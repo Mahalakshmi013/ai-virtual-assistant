@@ -201,7 +201,7 @@ p, div, span, label { font-family: 'Exo 2', sans-serif !important; }
 """, unsafe_allow_html=True)
 
 # ── Config ─────────────────────────────────────────────────────────────────────
-API_KEY = "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"
+API_KEY = st.secrets["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"]
 ASSISTANT_NAME = "Aria"
 
 SYSTEM_PROMPT = f"""You are {ASSISTANT_NAME}, a sleek and intelligent AI virtual assistant.
